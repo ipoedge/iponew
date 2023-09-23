@@ -3,4 +3,4 @@ services:
     name: fetch-external-content
     env: node
     buildCommand: npm install
-    startCommand: node src/server.js
+    startCommand: node server.js
