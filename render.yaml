@@ -4,4 +4,3 @@ services:
     env: node
     buildCommand: npm install
     startCommand: node src/server.js
-    workingDir: /opt/render/project
