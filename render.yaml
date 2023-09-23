@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: fetch-external-content
+    env: node
+    buildCommand: npm install
+    startCommand: node src/server.js
